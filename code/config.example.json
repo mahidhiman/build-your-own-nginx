@@ -1,0 +1,11 @@
+{
+  "listen": "127.0.0.1:8080",
+  "upstreams": [
+    "http://127.0.0.1:9001",
+    "http://127.0.0.1:9002"
+  ],
+  "read_header_timeout_ms": 5000,
+  "idle_timeout_ms": 60000,
+  "upstream_timeout_ms": 2000,
+  "max_inflight": 256
+}
